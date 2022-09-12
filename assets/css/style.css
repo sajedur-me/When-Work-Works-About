@@ -9,6 +9,7 @@ body
   font-weight: 400;
   line-height: 1.6em;
   font-size: 18px;
+  padding: 200px 0;
 }
 a {
   text-decoration: none;
@@ -61,11 +62,15 @@ u
 .www--left--column.www--img
 {}
 .www--right--column.www--content
-{}
+{
+  margin-left: 60px;
+}
 .www--right--column 
 {}
 .www--left--column.www--content
-{}
+{
+  margin-right: 60px;
+}
 .www--right--column.www--img
 {}
 
@@ -285,6 +290,19 @@ u
     width: 100%; 
     height: auto; 
   }
+
+
+  .www--right--column.www--content
+  {
+    margin-left: 0;
+  }
+  .www--left--column.www--content
+  {
+    margin-right: 0;
+  }
+
+
+
 }
 
 
