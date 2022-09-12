@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+/* -----------------------------------
+    01. Global
+-------------------------------------*/
+body 
+{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6em;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+img 
+{width: 100%; height: auto;}
+
+.www--global--pd--40 
+{
+  padding: 50px 0;
+}
+.www--global--pd--40 .www--section--heading h2 
+{
+  font-size: 48px;
+  line-height: 1.3.11em;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.www--hide--desktop 
+{
+  display: none;
+}
+
+u
+{
+  text-decoration: none;
+}
+
+/* -----------------------------------
+    01. Side by Side section
+-------------------------------------*/
+.www--section--main--wrapp .www--content h3 
+{
+  font-size: 32px;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.www--section--main--wrapp .www--content p 
+{
+  font-size: 18px;
+  line-height: 1.7em;
+  font-weight: 400;
+  margin-bottom: 27px;
+}
+.www--left--column
+{}
+.www--left--column.www--img
+{}
+.www--right--column.www--content
+{}
+.www--right--column 
+{}
+.www--left--column.www--content
+{}
+.www--right--column.www--img
+{}
+
+/* -----------------------------------
+    02. Authority Lives section
+-------------------------------------*/
+.www--authority--lives--items
+{
+  padding: 0 30px 30px;
+}
+.www--authority--lives--items .item
+{
+  display: flex;
+}
+.www--authority--lives--items .item figure
+{
+  margin-right: 25px;
+}
+.www--authority--lives--items .item figure img 
+{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.www--authority--lives--items .item .www--live--single--link p a
+{
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #da394a;
+}
+.www--authority--lives--items .item .www--live--single--link p a img
+{
+  width: 32px;
+  height: 33px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.www--authority--lives--excerpt--wrapp .www--authority--lives--items h4 
+{
+  font-size: 24px;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* -----------------------------------
+    03. Our Story section
+-------------------------------------*/
+.www--our--story--wrapp 
+{
+  background-color: #2638c4;
+  position: relative;
+  color: #FFFFFF;
+  padding: 75px 0;
+}
+.www--our--story--wrapp:before 
+{
+  content: "";
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(https://www.authorityhacker.com/wp-content/uploads/2022/01/grid-blurs.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.www--our--story--wrapp .www--section--heading h2 u
+{
+  border-bottom: 2px solid #FFFFFF;
+}
+/* -----------------------------------
+    04. Our Customers section
+-------------------------------------*/
+.www--our--customers--wrapp 
+{
+  padding: 70px 0 50px;
+}
+.www--our--customers--map 
+{
+  margin-top: 70px;
+}
+.www--our--customers--map p {
+  font-size: 24px;
+  line-height: 1.5em;
+  margin-top: 36px;
+}
+
+/* -----------------------------------
+    05. People About section
+-------------------------------------*/
+.www--people--main--wrapp .www--section--heading 
+{
+  margin-bottom: 100px;
+}
+.www--people--main--wrapp .www--section--heading h5
+{
+  font-size: 24px;
+  line-height: 1.5em;
+}
+.www--people--main--wrapp .www--image img
+{
+  width: 390px;
+  height: 560px;
+  object-fit: cover;
+}
+.www--people--main--wrapp .www--left--column
+{
+  margin-bottom: 80px;
+}
+.www--people--main--wrapp .www--content h3 
+{
+  font-size: 40px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+.www--people--main--wrapp .www--content p
+{
+  line-height: 1.7em;
+  margin-bottom: 30px;
+}
+
+/* -----------------------------------
+    05. People About section
+-------------------------------------*/
+.www--call--to-action--wrapp 
+{
+  background-color: #2638c4;
+  color: #ffffff;
+  background-image: url(https://www.authorityhacker.com/wp-content/uploads/2022/01/footer.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 75px;
+}
+.www--call--to-action--wrapp .www--left--content h3
+{
+  font-size: 64px;
+  line-height: 1.3em;
+}
+.www--call--to-action--wrapp .www--right--content p
+{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  line-height: 1.6em;
+}
+.www--btn--wrapp
+{
+  margin-top: 50px;
+}
+.www--btn--wrapp a 
+{
+  background-color: #da394a;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 15px 40px;
+  border-radius: 8px;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+}
+
+.www--btn--wrapp a:hover
+{
+  background-color: #da394a;
+  transform: scale(1.1) perspective(1000px);
+}
+
+@media (max-width: 767px)
+{
+  /* Global CSS */
+  .www--hide--mobile
+  {
+    display: none;
+  }
+  .www--hide--desktop 
+  {
+    display: block;
+  }
+  .img--order 
+  {
+    order: 1;
+  }
+  .text--order 
+  {
+    order: 2;
+  }
+  .www--right--column.www--content, .www--left--column.www--content
+  {
+    margin-top: 30px;
+  }
+
+  .www--call--to-action--wrapp .www--left--column.www--left--content
+  {
+    margin-bottom: 40px;
+  }
+  .www--call--to-action--wrapp
+  {
+    padding: 50px 0;
+  }
+
+  .www--authority--lives--items .item {
+    display: inherit;
+    margin-bottom: 40px;
+  }
+
+  .www--people--main--wrapp .www--image img, .www--authority--lives--items .item figure img 
+  {
+    width: 100%; 
+    height: auto; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
