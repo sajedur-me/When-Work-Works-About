@@ -76,6 +76,10 @@ u
 {
   padding: 0 30px 30px;
 }
+.www--authority--lives--excerpt--wrapp .www--section--heading
+{
+  margin-bottom: 60px;
+}
 .www--authority--lives--items .item
 {
   display: flex;
